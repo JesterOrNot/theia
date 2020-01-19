@@ -23,6 +23,7 @@ import { FrontendApplicationContribution } from './frontend-application';
 @injectable()
 export class DialogProps {
     readonly title: string;
+    readonly maxWidth?: number;
 }
 
 export type DialogMode = 'open' | 'preview';
