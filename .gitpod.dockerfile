@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full-vnc:latest
+FROM gitpod/workspace-full-vnc:branch-sh-nvm
 
 # Install custom tools, runtime, etc.
 RUN sudo apt-get update \
